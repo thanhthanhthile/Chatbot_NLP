@@ -1,0 +1,79 @@
+version: "3.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: what_info
+  - action: utter_bot_info
+
+- rule: introduce
+  steps:
+  - intent: what_info
+  - action: utter_bot_info
+
+- rule: what do eat
+  steps:
+  - intent: what_food
+  - action: utter_food
+
+- rule: crush
+  steps:
+  - intent: tha_thinh
+  - action: utter_thathinh
+
+- rule: what bot can do
+  steps:
+  - intent: what_do
+  - action: utter_can_do
+
+- rule: khen
+  steps:
+  - intent: khen
+  - action: utter_rep_khen
+
+- rule: damn
+  steps:
+  - intent: bad
+  - action: utter_bad
+
+
+- rule: make a poem
+  steps:
+  - intent: make_poem
+  - action: utter_poem
+
+- rule: comedy story
+  steps:
+  - intent: comedy_story
+  - action: utter_comedy
+
+- rule: draw a picture
+  steps:
+  - intent: draw
+  - action: utter_draw
+
+- rule: thank you bot
+  steps:
+  - intent: thanks
+  - action: utter_thanks
+
+- rule: bye bye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: mood unhappy
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up

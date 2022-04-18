@@ -1,0 +1,193 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - chào
+    - hello
+    - hey
+    - xin chào
+    - chào bot
+    - chào buổi sáng
+    - chào buổi tối
+    - chào buổi chiều
+    - ê
+    - này
+
+- intent: goodbye
+  examples: |
+    - bye
+    - bai
+    - bái bai
+    - tạm biệt
+    - chào tạm biệt
+    - hẹn gặp lại
+
+- intent: affirm
+  examples: |
+    - ừ
+    - ờ
+    - ời
+    - ừm
+    - ờm
+    - đúng
+    - đúng rồi
+    - đúng vậy
+    - phải
+    - chính xác
+    - chính nó
+    - ok
+    - okay
+    - oke
+    - dạ
+    - vâng
+
+- intent: deny
+  examples: |
+    - hông
+    - hong
+    - không
+    - không phải
+    - hong phải
+    - hông phải
+    - đừng
+    - hông cần đâu
+    - không cần đâu
+    - đừng làm vậy
+    - không được
+
+- intent: mood_unhappy
+  examples: |
+    - buồn quá
+    - chán quá
+    - mệt quá
+    - buồn như con chuồn chuồn
+    - chán như con gián
+    - quá buồn
+    - quá chán
+    - quá mệt
+    - áp lực quá
+    - mệt mỏi quá
+    - mệt quá
+    - buồn ghê
+    - chán ghê
+    - tôi không ổn
+    - huhu
+    - hic
+    - tôi đang buồn
+    - tôi buồn quá
+    - anh buồn quá
+    - anh đang buồn
+    - có gì vui không
+
+- intent: what_food
+  examples: |
+    - ăn gì đây
+    - ăn gì giờ
+    - sáng nay ăn gì
+    - sáng ăn gì
+    - trưa nay ăn gì
+    - trưa ăn gì
+    - tối nay ăn gì
+    - tối ăn gì
+    - trưa ăn gì đây
+    - sáng ăn gì đây
+    - tối ăn gì đây
+
+- intent: tha_thinh
+  examples: |
+    - thả thính
+    - một câu thính
+    - một câu thả thính
+    - chỉ mình một câu thả thính đi
+    - cách thả thính crush
+    - chỉ mình thả thính đi
+    - chỉ tui thả thính đi
+    - chỉ tui một câu thả thính đi
+
+- intent: what_do
+  examples: |
+    - bạn có thể làm được gì
+    - bạn có chức năng gì
+    - bạn biết làm gì
+    - bạn có thể làm gì
+    - chức năng của bạn là gì
+    - bạn có những chức năng nào
+- intent: khen
+  examples: |
+    - giỏi quá
+    - quao
+    - nai xừ
+    - nice
+    - wow
+    - giỏi vậy
+    - giỏi ghê
+    - làm tốt lắm
+    - tốt lắm
+    - quá giỏi
+    - tuyệt vời
+    - tuyệt
+    - tốt
+    - tốt lắm
+
+- intent: bad
+  examples: |
+    - dở tệ
+    - dở quá
+    - tệ quá
+    - ngu ngốc
+    - ngu quá
+    - ngốc quá
+    - bạn thật ngu ngốc
+    - ngu ghê
+    - ngốc ghê
+    - bạn thật dở tệ
+    - đó không phải điều tôi muốn
+
+- intent: thanks
+  examples: |
+    - cảm ơn nhiều
+    - cảm ơn nhé
+    - cảm ơn nha
+    - cảm ơn
+    - cảm ơn rất nhiều
+    - cảm ơn bé
+
+- intent: what_info
+  examples: |
+    - bạn là ai
+    - bạn tên gì
+    - bạn có thể giới thiệu về mình không
+    - giới thiệu về bạn đi
+
+- intent: make_poem
+  examples: |
+    - bạn có thể làm thơ không
+    - đọc cho tôi vài câu thơ đi
+    - làm cho tôi một bài thơ đi
+    - bạn biết làm thơ không
+    - làm thơ đi
+    - làm thơ
+    - bạn làm thơ được không
+    - biết làm thơ không
+
+- intent: draw
+  examples: |
+    - bạn biết vẽ tranh không
+    - vẽ cho tôi một bức tranh được không
+    - vẽ cho tôi một bức tranh đi
+    - vẽ tranh đi
+    - biết vẽ tranh không
+
+- intent: comedy_story
+  examples: |
+    - kể cho tôi nghe một câu chuyện đi
+    - kể chuyện đi
+    - bạn biết kể chuyện không
+    - kể chuyện cho tôi nghe đi
+    - kể một câu chuyện đi
+    - kể chuyện nghe đi
+    - kể chuyện cho tôi
+    - kể chuyện
+
+

@@ -1,0 +1,232 @@
+version: "3.0"
+
+intents:
+  - greet # chào hỏi
+  - goodbye
+  - affirm
+  - deny
+  - mood_great # vui vẻ
+  - mood_unhappy # buồn chán
+  - what_food # ăn gì
+  - tha_thinh # thả thính
+  - what_do # chức năng của bot
+  - khen
+  - bad # chê
+  - lookup_en # tra từ tiếng anh
+  - what_info # hỏi info của bot
+  - make_poem # làm thơ
+  - draw # vẽ tranh
+  - comedy_story # kể chuyện
+  - thanks
+
+     
+
+responses:
+  utter_greet:
+  - text: mình rất chào bạn
+  - text: chào :))
+  - text: hế lô ^^
+  - text: 22222 ^^
+  - text: bạn cần mình giúp gì nè ^^
+
+  utter_cheer_up:
+  - text: đừng buồn nữa :))
+  - text: hãy vui lên :))
+  - text: ai cũng có lúc vậy thôi!
+  - text: "coi hình con hổ nè: "
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+  - text: đi uống nước cam đi, mình không biết uống nước cam có hết buồn chán không, nhưng mà nó ngon :))
+  - text: úm ba la xì bùa bạn đã hết buồn
+  - text: "uống cô cô nớt hong: "
+    image: "https://memedaily.vn/storage/meme/meme-uong-nuoc-dua.jpg"
+  - text: "Chơi đồ án đi là hết buồn: "
+    image: "https://i.pinimg.com/236x/fb/04/97/fb04972d50aa18efe5684d053933a282.jpg"
+  - text: ""
+    image: "https://s.memehay.com/files/posts/20210125/soi-khoac-vai-cuu-tuoi-vui-len-ban-ma-buon-la-toi-an-ban-luon-day.jpg"
+  - text: ""
+    image: "https://taimeme.com/public/upload/memes/tang-cho-cai-bong-ne-manh-me-len.jpeg"
+  - text: ""
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Lqw4YBiRnYR_G4gErUwA_AeOUOWW1ob9KGsHyYKanL3IUDidfurFswZYJICAEvkaxSw&usqp=CAU"
+
+  utter_did_that_help:
+  - text: "Thấy tui làm zậy bạn zui chưa?"
+  - text: "Giờ thì vui chưa"
+  - text: "Nói chuyện với tui zậy giờ zui chưa?"
+
+  utter_bad:
+  - text: xin lỗi, được chưa :)
+  - text: ""
+    image: "https://i.pinimg.com/564x/5d/f5/28/5df528f6093b28fc8a538ca2b9399c1c.jpg"
+  - text: ""
+    image: "https://anhdep123.com/wp-content/uploads/2021/02/anh-che-meme.jpg"
+  - text: ""
+    image: "https://i.pinimg.com/550x/69/67/95/69679564376862a2e30e36e7097495b4.jpg"
+  - text: em sai rồi anh xin lỗi em đi :))
+  - text: ""
+    image: "https://taimeme.com/public/upload/memes/nhan-luc-tui-con-vui-ve-lam-on-cut-di.jpg"
+  - text: ""
+    image: "https://taimeme.com/public/upload/memes/toi-hieu-roi-toi-la-mot-co-gai-xinh-dep-khong-duoc-nguoi-ta-thich-a1acf8cf7bcb6dc074aebc495e4124e2.jpg"
+  - text: "buồn gớt nước mắt :'("
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: bái bai
+  - text: tạm biệt
+  - text: ""
+    image: "https://s.memehay.com/files/posts/20200825/914176dc80ac20c0213a2e0279d82b32gau-truc-cao-tu.jpg"
+
+  utter_bot_info:
+  - text: "Anh xin tự giới thiệu anh là công tử Bạc Liêu\n Giàu nhất trong vùng gia tài bạc triệu...\n Giỡn thôi toii chỉ là một con chatbot nghèo khổ :<"
+  - text: "Bé tên Lena, là một chatbot dễ thương,\nChâm ngôn sống của bé là: luôn luôn lắng nghe - lâu lâu mới hiểu"
+  
+  utter_food:
+  - text: Ăn Phở đi
+  - text: Ăn Cơm gà nhé
+  - text: Ăn Cơm sườn được hong
+  - text: Ăn Cháo gà đi
+  - text: Ăn Lẩu chay
+  - text: ăn gỏi cuốn
+  - text: ăn bún ốc
+  - text: ăn bún thịt nướng đi
+  - text: ăn bún bò đi
+  - text: ăn mì Quảng đi
+  - text: ăn cao lầu đi
+  - text: ăn bánh xèo được hong
+  - text: ăn bún cá nhé
+  - text: ăn bún chả đi
+  - text: ăn bún măng vịt đi
+  - text: ăn bún mắm đi
+  - text: ăn bún đậu mắm tôm đi
+  - text: đi ăn hủ tiếu đi
+  - text: ăn bún riêu cua đi
+  - text: ăn cháo lòng đi
+  - text: ăn súp cua được hong
+  - text: ăn bò kho đi nè
+  - text: đi ăn bánh cuốn đi nè
+  - text: đi ăn bánh bèo zới tuii hong
+  - text: đi ăn bánh bao nhé
+  - text: ăn bánh căn đi nè
+  - text: mua bánh mì ăn đi
+  - text: ăn bánh tráng cuốn thịt heo đi
+
+  utter_thathinh:
+  - text: Bầu trời xanh, làn mây trắng. Anh yêu nắng hay yêu em?
+  - text: Nhờ có nắng mới thấy cầu vồng. Nhờ có anh mới thấy màu hạnh phúc.
+  - text: Soái ca là của ngôn tình. Còn anh thì chỉ của mình em thôi.
+  - text: Giữa cuộc đời hàng ngàn cám dỗ.Em chỉ cần bến đỗ anh thôi.
+  - text: Bồ công anh bay khi có gió. Em chỉ cười vì ở đó có anh.
+  - text: Chỉ cần anh nói yêu, em sẽ bám theo anh suốt đời. Cô gái đang muốn muốn bật đèn xanh đấy. Cô nàng muốn gợi ý là mình chung thủy lắm đấy. Anh cứ thử tỏ tình mà xem.
+  - text: Em học Văn thì dốt. Tính toán cũng chẳng nhanh. Hỏi em học gì tốt? Đó là môn yêu Anh.
+  - text: Bỏ lỡ hoàng hôn thì anh có thể ngắm lại vào ngày mai. Bỏ lỡ em thì anh sẽ không gặp lại lần hai.
+  - text: Tài nấu ăn em hơi ẩu. Chẳng biết nấu gì ngoài món lẩu tình yêu.
+  - text: Hảo Hảo làm em cay. Còn anh làm em say!
+  - text: Tim em đã bật đèn xanh. Yêu em thì nói nhanh nhanh lên nào.
+  - text: Giới hạn của hàm số là lim, còn giới hạn của trái tim là cậu.
+  - text: Có một lâu đài nhỏ. Ở trong đó có em. Anh cứ nhìn mà xem. Cứu em nhanh đi chứ!
+  - text: Cậu giống như Google vậy! Cậu có tất cả những gì tớ tìm kiếm.
+  - text: Hôm nay em đi học. Bị điểm kém môn Anh. Cô dạy “Yêu” là “Love”. Mà em viết tên anh.
+  - text: Nếu anh thích một người thú vị thì em đây là một ví dụ.
+  - text: Nhân gian vốn lắm bộn bề. Sao không bỏ hết rồi về bên em?
+  - text: La bàn chỉ hướng Bắc. Xong lại chỉ hướng Nam. Tớ chỉ hướng về cậu. Thứ khác tớ không ham.
+  - text: Trời không xanh. Mây cũng không trắng. Em không say nắng. Nhưng em lại say anh.
+  - text: "Càng phân tích tim em càng nhức nhối.\n
+          Anh nỡ (lòng) nào trị tuyệt đối tình em. \n
+          Em yêu anh bằng định lý chân thành. \n
+          Và tình em đã tiến về vô cực."
+  - text: Mời cậu ăn bát phở tái. Để rồi mong cậu phải lòng tớ.
+  - text: Mỗi người đều có quyền yêu cái đẹp. Vì vậy, tớ yêu cậu.
+  
+  utter_can_do:
+  - text: tui có thể gợi ý món ăn cho bạn nè
+  - text: tui có thể làm thơ luôn đấy
+  - text: tui có thể nói chuyện với bạn nè
+  - text: tui có thể làm bạn vui vẻ
+  - text: làm bạn vui vẻ là sứ mệnh của tui
+  - text: tui có thể kể chuyện cho bạn nghe đó
+  - text: tui có thể chỉ cho bạn cách thả thính cờ rớt
+  - text: tui có thể làm người iuu của bạn :v
+  - text: tui biết vẽ tranh luôn đó
+
+  utter_rep_khen:
+  - text: hihi bạn quá khen
+  - text: khen quá ngại hihi
+  - text: tui biết tui giỏi rồi kkk
+  - text: "ahihi ngại quá "
+    image: "https://s.memehay.com/files/posts/20201216/cheem-do-mat-chi-tay-vao-nhau-xau-ho.jpg"
+  - text: ""
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkqV6-X7Fjemi70nXcQliu5YUo1D5rTq7V9w&usqp=CAU"
+  - text: ""
+    image: "https://i.pinimg.com/564x/01/5c/59/015c59d33d609940ce95d7c6a4804175.jpg"
+
+  utter_poem:
+  - text: "Chiều chiều gió thổi hiu hiu,\n
+      Vì mê hai tỉ, mất tiêu 10 ngàn."
+  - text: "Trời sinh bản tính dịu hiền,\n
+      Để che bớt vẻ thiếu tiền bên trong."
+  - text: "Nắng chiếu lung linh muôn hoa vàng,\n
+      Gần tới Tết là mình hết tiền tiêu."
+  - text: "Đôi khi lỡ hẹn một giờ,\n
+      Lần sau miễn gặp, khỏi chờ, mất công."
+  - text: "Họ gầy vào mùa hạ,\n
+      Họ béo vào mùa đông,\n
+      Còn em như lợn hồng,\n
+      Mùa nào em cũng béo."
+  - text: "Trời buồn trời đổ cơn mưa,\n
+      Ta buồn ta ngủ từ trưa đến chiều,\n
+      Ngủ xong dậy ăn cơm chiều,\n
+      Ăn xong lại ngủ từ chiều đến mai."
+  - text: "Tôi muốn tắt nắng đi,\n
+      Cho màu đừng nhạt mất.\n
+      Tôi muốn buộc cậu lại,\n
+      Cho cậu thành của tôi."
+
+  utter_draw:
+  - text: "。、★、•、、、\n
+      、、 ☆ ♥ 、＼＊•\n
+      •♥☆＼•＼☆＼、＊\n
+      ＼、＊• ♥＼☆＼、\n
+      ╭⌒╮⌒⌒╮＼＊\n
+      •╱◥██◣♥ ★、\n
+      ｜田｜田田| ＼ •、\n
+      \t╬╬╬╬╬╬╬╬"
+  - text: "bánh kem nè:\n
+      __i_i_i_i_i_i_i_i__\n
+      __[¸.•´¯`•☆•´¯`•.¸]__\n
+      [.¸.•´¯`07-08´¯`•.¸.]\n
+      |_______ღ.ღ_______|"
+  - text: "o,,,o /),/)\n
+    ( ' ; ' ) ( ' ; ' )\n
+    (,,)-(,,)(,,)-(,,)"
+
+  utter_comedy: 
+  - text: "Ông nội và người cháu đích tôn 3 tuổi đang ngồi chơi trò bán hàng.\n
+    - Cháu: Đây tôi đưa bác 5.000 đồng, nhưng với một điều kiện.\n
+    - Ông: Điều kiện gì cũng được.\n
+    - Cháu: Thật không?\n
+    - Ông: Thật. Bác cứ nói đi.\n
+    - Cháu: Bác phải về dạy lại con bác đi nhé, con bác hay đánh tôi lắm đấy."
+  - text: "Vừa xong bữa nhậu đầu năm với bạn bè, anh chồng ngất ngư đi về nhà. Để vợ không đoán được là mình uống rượu quá mức, anh ta quyết định đi thẳng vào phòng và ngồi đọc sách, hy vọng vợ trông thấy sẽ nghĩ là mình tỉnh táo...Vài phút sau, cô vợ vào và hỏi:\n
+    - Anh đang làm gì vậy?\n
+    - Đọc sách.\n
+    - Vợ anh ta thét lên: Đồ điên! Đóng vali lại và ngủ đi!"
+  - text: "Bạn tù hỏi nhau:\n
+    - Tại sao anh phải vào đây?\n
+    - Tôi bỏ vợ…\n
+    - Thế thôi sao? Chuyện nhỏ mà!\n
+    - … từ trên lầu ba xuống."
+  - text: "- Bí mật khủng khiếp đây! Đã có năm mươi nạn nhân! Mua báo không ông?\n
+    Khách qua đường mua một tờ, xem lướt qua:\n
+    - Này, thằng nhóc kia, làm gì có bí mật với nạn nhân nào?\n
+    - Đó chính là bí mật khủng khiếp mà ông là nạn nhân.\n
+    - !?\n
+    - Báo đây! Bí mật khủng khiếp, đã có năm mươi mốt nạn nhân… Báo đây…"
+
+  utter_thanks:
+  - text: "hong có gì"
+  - text: "đó là việc của tôi mà :)"
+  - text: "hehe hong có chi"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
